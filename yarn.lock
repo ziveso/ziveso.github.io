@@ -8581,6 +8581,13 @@ react-lifecycles-compat@^3.0.2, react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-show-more@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-show-more/-/react-show-more-2.0.0.tgz#16e021c918083baf64648fa75ae515be136d0986"
+  integrity sha512-PlB/Ni+w0WVFmvQIqF6x6AElix51O73LbHOIzvPLyWXK8fwEz7+ES+vw7+EC/Taw0NZ3LGkwaHslpMiUh+1bQw==
+  dependencies:
+    react-truncate "^2.3.0"
+
 react-slick@~0.23.2:
   version "0.23.2"
   resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.23.2.tgz#8d8bdbc77a6678e8ad36f50c32578c7c0f1c54f6"
@@ -8592,6 +8599,11 @@ react-slick@~0.23.2:
     lodash.debounce "^4.0.8"
     prettier "^1.14.3"
     resize-observer-polyfill "^1.5.0"
+
+react-truncate@^2.3.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-truncate/-/react-truncate-2.4.0.tgz#3cf5ff09ab86f93e3c078d359f4de6d75aa60510"
+  integrity sha512-3QW11/COYwi6iPUaunUhl06DW5NJBJD1WkmxW5YxqqUu6kvP+msB3jfoLg8WRbu57JqgebjVW8Lknw6T5/QZdA==
 
 react@^16.6.0:
   version "16.6.0"

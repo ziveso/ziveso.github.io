@@ -1,14 +1,19 @@
 import React, { Component } from "react";
-import DetailCard from "./components/DetailCard";
-import Skills from "./components/informatives/Skills";
 import { Row } from "antd";
+import DetailCard from "./components/DetailCard";
 import Background from "./components/Background";
+import Skills from "./components/informatives/Skills";
+import Profile from "./components/informatives/Profile";
+import Education from "./components/informatives/Education";
+import Languages from "./components/informatives/Languages";
+import Contact from "./components/informatives/Contact";
+import Experiences from "./components/informatives/Experiences";
 import "./App.css";
 
 const details = [
   {
     title: "Profile",
-    components: <div>my profile</div>,
+    components: <Profile />,
     col: 12,
     style: {
       margin: "10px"
@@ -21,20 +26,22 @@ const details = [
     style: {
       margin: "10px",
       backgroundColor: "#3366CC"
-    }
+    },
+    headStyle: true
   },
   {
     title: "Education",
-    components: <div>my education</div>,
+    components: <Education />,
     col: 18,
     style: {
       margin: "10px",
       backgroundColor: "#3366CC"
-    }
+    },
+    headStyle: true
   },
   {
     title: "Languages",
-    components: <div>my Language</div>,
+    components: <Languages />,
     col: 6,
     style: {
       margin: "10px"
@@ -42,7 +49,7 @@ const details = [
   },
   {
     title: "Contact",
-    components: <div>my contact</div>,
+    components: <Contact />,
     col: 6,
     style: {
       margin: "10px"
@@ -50,12 +57,13 @@ const details = [
   },
   {
     title: "Experiences",
-    components: <div>my Experiences</div>,
+    components: <Experiences />,
     col: 18,
     style: {
       margin: "10px",
       backgroundColor: "#3366CC"
-    }
+    },
+    headStyle: true
   }
 ];
 
@@ -63,7 +71,12 @@ class App extends Component {
   render() {
     const _details = details.map(item => {
       return (
-        <DetailCard title={item.title} style={item.style} col={item.col}>
+        <DetailCard
+          title={item.title}
+          style={item.style}
+          col={item.col}
+          headStyle={item.headStyle}
+        >
           {item.components}
         </DetailCard>
       );
