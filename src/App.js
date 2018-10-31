@@ -116,10 +116,6 @@ class App extends Component {
             {_details}
           </Row>
         </div>
-        <footer>
-          <div>copyright</div>
-          icon
-        </footer>
       </div>
     );
   }

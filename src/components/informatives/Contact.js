@@ -3,21 +3,34 @@ import React, { Component } from "react";
 export class Contact extends Component {
   render() {
     return (
-      <div style={{ textAlign: "left" }}>
-        <p>
+      <div>
+        <div style={{ textAlign: "left" }}>
           <div>
-            <i className="material-icons">location_city</i>
-            {" "}97/36 Krungthepkritha road, Bangkok, 10250
+            <i className="fas fa-city" /> 97/36 Krungthepkritha road, Bangkok,
+            10250
           </div>
           <div>
-            <i className="material-icons">phone</i>
-            {" "}+66-83-770-0808
+            <i className="fas fa-mobile" /> +66-83-770-0808
           </div>
           <div>
-            <i className="material-icons">email</i>
-            {" "}thitiwat.thongbor@gmail.com
+            <i className="fas fa-envelope" /> thitiwat.thongbor@gmail.com
           </div>
-        </p>
+        </div>
+        <hr />
+        <div style={{ fontSize: "2rem" }}>
+          <a href="https://www.facebook.com/thitiwat.thongbor">
+            <i style={{ margin: "10px" }} className="fab fa-facebook" />
+          </a>
+          <a href="https://twitter.com/GuyZivesO">
+            <i style={{ margin: "10px" }} className="fab fa-twitter-square" />
+          </a>
+          <a href="https://www.instagram.com/guy_zives/">
+            <i style={{ margin: "10px" }} className="fab fa-instagram" />
+          </a>
+          <a href="https://github.com/ziveso">
+            <i style={{ margin: "10px" }} className="fab fa-github-square" />
+          </a>
+        </div>
       </div>
     );
   }

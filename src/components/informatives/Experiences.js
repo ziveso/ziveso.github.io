@@ -3,9 +3,9 @@ import { Timeline } from "antd";
 
 export class Experiences extends Component {
   getTimeLineItem(items) {
-    return items.map(item => {
+    return items.map((item,id) => {
       return (
-        <Timeline.Item color={item.color}>
+        <Timeline.Item key={`timeline-${id}`} color={item.color}>
           <div style={item.detailStyle}>{item.detail}</div>
         </Timeline.Item>
       );
