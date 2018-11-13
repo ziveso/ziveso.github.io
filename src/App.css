@@ -49,3 +49,18 @@ header {
   top: 0;
   left: 0;
 }
+
+a.skills {
+  color: rgb(180, 202, 97);
+  margin: 10px;
+  padding: 3px;
+}
+
+a.skills:hover {
+  color: black;
+  background: rgba(255,255,255,0.2);
+}
+
+a.skills svg {
+  margin: 0 5px;
+}

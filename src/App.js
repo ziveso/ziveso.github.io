@@ -116,6 +116,18 @@ class App extends Component {
             {_details}
           </Row>
         </div>
+        <footer style={{ margin: "10px" }}>
+          <a
+            href="https://ziveso.github.io/thitgorn.github.io"
+            style={{
+              padding: "10px",
+              background: "rgba(255,255,255,0.7)",
+              color: "black"
+            }}
+          >
+            old version.
+          </a>
+        </footer>
       </div>
     );
   }
