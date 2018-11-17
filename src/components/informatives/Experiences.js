@@ -292,6 +292,7 @@ export class Experiences extends Component {
             )
           },
           { detail: "Outsource Programming Work, ITTP co. ltd" },
+          { detail: "Participating TESA TGR 2019#13" },
           { color: "black", detail: "2018", detailStyle: { color: "black" } }
         ])}
       </Timeline>
