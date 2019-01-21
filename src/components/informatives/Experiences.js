@@ -17,7 +17,11 @@ export class Experiences extends Component {
         {this.getTimeLineItem([
           { color: "gold", detail: "Gold medal, Robotic contest (2012)" },
           { color: "gold", detail: "Gold medal, Robotic contest (2013)" },
-          { color: "black", detail: "2012", detailStyle: { color: "black" } },
+          {
+            color: "black",
+            detail: "2012",
+            detailStyle: { color: "black" }
+          },
           { color: "gold", detail: "Gold medal, Robotic contest (2014)" },
           { color: "gold", detail: "Best Programming Award, Netdesign" },
           {
@@ -27,7 +31,11 @@ export class Experiences extends Component {
           {
             detail: "3rd Place, Programming high school contest Thailand (2014)"
           },
-          { color: "black", detail: "2014", detailStyle: { color: "black" } },
+          {
+            color: "black",
+            detail: "2014",
+            detailStyle: { color: "black" }
+          },
           {
             detail: "3rd Place, Programming high school contest Thailand (2015)"
           },
@@ -52,7 +60,11 @@ export class Experiences extends Component {
               </div>
             )
           },
-          { color: "black", detail: "2015", detailStyle: { color: "black" } },
+          {
+            color: "black",
+            detail: "2015",
+            detailStyle: { color: "black" }
+          },
           {
             color: "gold",
             detail: (
@@ -134,7 +146,11 @@ export class Experiences extends Component {
             )
           },
           { detail: "Class project" },
-          { color: "black", detail: "2017", detailStyle: { color: "black" } },
+          {
+            color: "black",
+            detail: "2017",
+            detailStyle: { color: "black" }
+          },
           {
             detail: (
               <div>
@@ -266,6 +282,23 @@ export class Experiences extends Component {
               </div>
             )
           },
+          { detail: "Outsource Programming Work, ITTP co. ltd" },
+          {
+            detail: (
+              <div>
+                Freelance, Web developer, First Time Air Cargo
+                <a
+                  className="skills"
+                  href="https://firsttimeaircargo.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-globe" aria-hidden="true" />
+                  Firsttimeaircargo
+                </a>
+              </div>
+            )
+          },
           {
             detail: (
               <div>
@@ -291,9 +324,51 @@ export class Experiences extends Component {
               </div>
             )
           },
-          { detail: "Outsource Programming Work, ITTP co. ltd" },
-          { detail: "Participating TESA TGR 2019#13" },
-          { color: "black", detail: "2018", detailStyle: { color: "black" } }
+          {
+            color: "black",
+            detail: (
+              <div>
+                YWC project - JoinTy
+                <a
+                  className="skills"
+                  href="https://github.com/pchatanan/Jointy-ywc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fas fa-code" />
+                  Source code
+                </a>
+              </div>
+            )
+          },
+          {
+            color: "black",
+            detail: "2018",
+            detailStyle: { color: "black" }
+          },
+          {
+            color: "gold",
+            detail: (
+              <div>
+                Top score on server programming, system engineering, and
+                Friendship award on TESA TGR 2019#13
+                <a
+                  className="skills"
+                  href="https://github.com/DREAMTEAM-KU"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fas fa-code" />
+                  Source code
+                </a>
+              </div>
+            )
+          },
+          {
+            color: "black",
+            detail: "2019",
+            detailStyle: { color: "black" }
+          }
         ])}
       </Timeline>
     );

@@ -11,8 +11,8 @@ class DetailCard extends Component {
           headStyle={{
             fontSize: "2rem",
             color: this.props.headStyle ? "white" : "",
-            textAlign: 'left',
-            paddingLeft: '40px'
+            textAlign: "left",
+            paddingLeft: "40px"
           }}
         >
           {this.props.children}
