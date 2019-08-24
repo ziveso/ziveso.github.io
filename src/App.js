@@ -110,6 +110,7 @@ class App extends Component {
           <h1 style={{ textShadow: "1px 1px #000", color: "white" }}>
             Software Developer
           </h1>
+          <h3 style={{ background: "red", color: "White" }}>TO BE UPDATED!</h3>
         </header>
         <div className="detail">
           <Row gutter={16} style={{ width: "100%" }}>
