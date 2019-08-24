@@ -365,6 +365,52 @@ export class Experiences extends Component {
             )
           },
           {
+            color: "red",
+            detail: (
+              <div style={{ color: "yellow" }}>
+                <b>
+                  Exchanged Student at KAMK, Kajaani University, Kajaani,
+                  Finland.
+                </b>
+              </div>
+            )
+          },
+          {
+            color: "gold",
+            detail: (
+              <div>
+                3D Game Development in intensive course.
+                <a
+                  className="skills"
+                  href="https://gitlab.com/ziveso/zombiesurvival"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fas fa-code" />
+                  Source code
+                </a>
+              </div>
+            )
+          },
+          {
+            color: "gold",
+            detail: (
+              <div>
+                2D Survival Game Stone of Hiis during Summer course, Commercial
+                game development.
+                <a
+                  className="skills"
+                  href="https://github.com/JamesCrr/SummerGames2019_Digitakomo_Local"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fas fa-code" />
+                  Source code
+                </a>
+              </div>
+            )
+          },
+          {
             color: "black",
             detail: "2019",
             detailStyle: { color: "black" }
